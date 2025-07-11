@@ -141,6 +141,7 @@ nav ul li a{
 /*   client  */
 .client{
     margin-top: 200px;
+    
 }
 .client-title{
     text-align: center;
@@ -149,7 +150,74 @@ nav ul li a{
     color: #252432;
 }
 .client-box{
-    width: 360px;
-    background: white;
+    width: 300px;
+    height: 243px;
+    background: #e0d8d8;
     padding: 24px;
+    border-radius: 10px;
+    
+}
+.client-heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+.client-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+.client-person{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.client-data{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.client-name{
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+.client-date{
+    font-size: 16px;
+    font-weight: 400;
+}
+.client-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/*    form part */
+.form-part{
+    margin-top: 200px;
+    
+}
+.form-title{
+    font-size: 97px;
+    width: 528px;
+}
+.form-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-input{
+    background: #ccc4c436;
+    padding: 20px 172px 20px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.btn-submit{
+    padding: 15px 25px;
+    background: blue;
+    color: #ffff;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
 }
