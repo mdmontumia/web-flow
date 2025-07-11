@@ -1,0 +1,155 @@
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.common-color{
+    color: #4E47FF;
+}
+/* nav style  */
+.bg-image{
+    height: 100vh;
+    background-image: url(../web-flow/image/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+   text-decoration: none;
+   color: red;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.logo{
+    font-size: 34px;
+    color: #4E47FF;
+}
+.btn-primary{
+    background: blue;
+    padding:28px 100px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+   
+    background: red;
+    color: rgb(43, 226, 98);
+    transition: 4s;
+}
+ .banner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+   flex-direction: column;
+   
+} 
+.banner h1{
+    font-size: 75px;
+    font-weight:700;
+    color:#252432;
+    text-align:center;
+    margin-top: 158px;
+    
+}
+.btn-heading{
+     padding:30px 90px;
+     margin-bottom: 152px;
+}
+
+/* action part */
+.action-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+}
+.action-img{
+    border-radius: 48px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+.action-description{
+     font-size: 24px;
+     line-height: 30px;
+    font-weight: 400;
+    color: #252432;
+    width: 516px;
+    margin-bottom: 30px;
+}
+.btn-action{
+    padding: 25px 60px;
+}
+/*  user part */
+.user{
+    margin-top: 100px;
+}
+.user-box{
+    background: hwb(242 67% 13%);
+    height: 360px;
+    border-radius: 24px;
+    text-align: center;
+    
+}
+.user-title{
+   padding-top: 50px;
+   font-size: 38px;
+   font-weight: 700;
+   color: #252432;
+   text-align: center;
+}
+.user-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-like{
+    font-size: 50px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+.user-rate{
+    font-size: 24px;
+    font-weight: 400;
+    color: #0000007b;
+}
+/*   client  */
+.client{
+    margin-top: 200px;
+}
+.client-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+.client-box{
+    width: 360px;
+    background: white;
+    padding: 24px;
+}
