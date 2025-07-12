@@ -221,3 +221,38 @@ nav ul li a{
     width: 100%;
     border: none;
 }
+/* footer style */
+footer{
+    margin-top: 200px;
+}
+.footer-title{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+.footer-content{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #8987A1;
+    text-align: center;
+    margin-left: 25%;
+    width: 532px;
+    height: 48px;
+}
+.modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 27%;
+    gap: 30px;
+}
+.modal-footer li{
+    list-style: none;
+}
+.modal-footer li a{
+    text-decoration: none;
+    color: #252432;
+    font-size: 16px;
+}
